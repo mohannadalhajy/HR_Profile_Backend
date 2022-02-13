@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@tinacms/api-git": "^0.39.0",
+    "@tinacms/git-client": "^0.39.0",
+    "adm-zip": "^0.5.5",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "continuation-local-storage": "^3.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "excel4node": "^1.7.2",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.20",
+    "morgan": "^1.10.0",
+    "node-xlsx": "^0.17.1",
+    "nodemon": "^2.0.7",
+    "qrcode": "^1.4.4",
+    "real-random-address": "^1.1.0",
+    "vcard-creator": "^0.4.1"
+  }
+}

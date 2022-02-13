@@ -1,0 +1,262 @@
+
+###Login Route
+POST http://localhost:3005/auth/login
+Content-Type: application/json
+
+{
+  "email": "mohannad@gmail.com",
+  "password": "12345678"
+}
+
+###Register Route
+POST http://edc5a87.online-server.cloud:3005/auth/register
+Content-Type: application/json
+
+{
+  "email": "test1@gmail.com",
+  "password": "12345678"
+}
+###Register Route
+POST http://localhost:3005/auth/register
+Content-Type: application/json
+
+{
+  "email": "test1@gmail.com",
+  "password": "12345678"
+}
+
+###employee Route
+GET http://localhost:3007/employee
+Content-Type: application/json
+
+###employee Route
+POST http://localhost:3007/test
+Content-Type: application/json
+
+{
+  "fname": "Ahmad",
+  "lname": "Ahmad",
+  "position": "Manager",
+  "status": "Act",
+  "image": "1"
+}
+606882e51fc755618b570414
+###getway Route
+GET http://localhost:3007/employee/606882e51fc755618b570414
+Content-Type: application/json
+
+
+###getway Route
+GET http://localhost:3007/employee/guest/606882e51fc755618b570413
+Content-Type: application/json
+
+###getway Route
+GET http://localhost:3007/employee/vcard/606882e51fc755618b570414
+Content-Type: application/json
+
+###getway Route
+delete http://localhost:3005/employee/60ed77e769fc8a3ed12b4c34
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFiYzY4NTNjYzJkNDA0MWI3ZDgiLCJpYXQiOjE2MjYwMDY2MTAsImV4cCI6MTYyOTg5NDYxMCwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.DE8uZ3GL3w2b7T-oDlcq38vC7_2hv6mHKZFO3jY_3dQ
+Content-Type: application/json
+
+###getway Route
+delete http://localhost:3005/auth/610a36c3379aac191b0377c5
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFiYzY4NTNjYzJkNDA0MWI3ZDgiLCJpYXQiOjE2MjYwMDY2MTAsImV4cCI6MTYyOTg5NDYxMCwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.DE8uZ3GL3w2b7T-oDlcq38vC7_2hv6mHKZFO3jY_3dQ
+Content-Type: application/json
+###getway Route
+delete http://edc5a87.online-server.cloud:3005/auth/610a34f794e67deddd4a45fe
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFiYzY4NTNjYzJkNDA0MWI3ZDgiLCJpYXQiOjE2MjYwMDY2MTAsImV4cCI6MTYyOTg5NDYxMCwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.DE8uZ3GL3w2b7T-oDlcq38vC7_2hv6mHKZFO3jY_3dQ
+Content-Type: application/json
+
+###getway Route
+PATCH  http://localhost:3007/employee/60648cc223d2b54464338b13
+Content-Type: application/json
+
+{
+  "fname": "Ahmad",
+  "lname": "Ahmad",
+  "position": "Manager",
+  "status": "Active",
+  "image": "3"
+}
+
+
+###getway Route
+GET http://edc5a87.online-server.cloud:3007/response
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJpYXQiOjE2MjMwNjUyMTAsImV4cCI6MTYyNjk1MzIxMCwiYXVkIjoiNjA4YTlhMjY2NDQzNDM1ZDEzNWFkYmZiIiwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.MOXxB4xmYxeGI_NlbyyAGCVaKQFNn21BhuIsOxIXwEk
+Content-Type: application/json
+
+
+
+###getway Route
+POST   http://edc5a87.online-server.cloud:3007/response
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJpYXQiOjE2MjMwNjUyMTAsImV4cCI6MTYyNjk1MzIxMCwiYXVkIjoiNjA4YTlhMjY2NDQzNDM1ZDEzNWFkYmZiIiwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.MOXxB4xmYxeGI_NlbyyAGCVaKQFNn21BhuIsOxIXwEk
+Content-Type: application/json
+{
+  "code": "EMPLOYEE_NOT_FOUND",
+  "message": "This Employee is no longer Existed"
+}
+###getway Route
+POST   http://localhost:3005/publicDisplay
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJpYXQiOjE2MjMwNjUyMTAsImV4cCI6MTYyNjk1MzIxMCwiYXVkIjoiNjA4YTlhMjY2NDQzNDM1ZDEzNWFkYmZiIiwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.MOXxB4xmYxeGI_NlbyyAGCVaKQFNn21BhuIsOxIXwEk
+Content-Type: application/json
+{
+  "name": "phone",
+  "display": true
+}
+###getway Route
+POST   http://localhost:3005/countryCode/create
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2Mjg1MDgxNDQsImV4cCI6MTYzMjM5NjE0NCwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.EL7gNiNT-WhFa5GU59VUhEEFNKUAJmGunJb7wHnGatk
+Content-Type: application/json
+
+{
+  "name": "+963"
+}
+###getway Route
+PATCH   http://localhost:3005/countryCode/update
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2Mjg1MDgxNDQsImV4cCI6MTYzMjM5NjE0NCwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.EL7gNiNT-WhFa5GU59VUhEEFNKUAJmGunJb7wHnGatk
+Content-Type: application/json
+
+{
+  "name": "+964"
+}
+###getway Route
+GET   http://localhost:3005/countryCode
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2Mjg1MDgxNDQsImV4cCI6MTYzMjM5NjE0NCwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.EL7gNiNT-WhFa5GU59VUhEEFNKUAJmGunJb7wHnGatk
+
+###getway Route
+POST   http://edc5a87.online-server.cloud:3005/publicDisplay/init
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgzMjg4MDksImV4cCI6MTYzMjIxNjgwOSwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.tuo7rindSkylM2AcGatqIBjgzn7pPGdFn_Uc809YeGo
+###getway Route
+POST   http://localhost:3005/publicDisplay/init
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A
+###getway Route
+
+PATCH  http://localhost:3005/publicDisplay/610bec87985f3c3542d52093
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A
+Content-Type: application/json
+
+{
+  "name": "phone111",
+  "display": true
+}
+###getway Route
+PATCH  http://localhost:3005/publicDisplay
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A
+Content-Type: application/json
+
+{
+  "displays":[
+    
+  {
+    "_id": "610bec87985f3c3542d5208a",
+    "display": true,
+    "name": "email",
+    "__v": 0
+  },
+  {
+    "_id": "610bec87985f3c3542d5208d",
+    "display": true,
+    "name": "image",
+    "__v": 0
+  },
+  {
+    "_id": "610bec87985f3c3542d52090",
+    "display": false,
+    "name": "organization",
+    "__v": 0
+  },
+  {
+    "_id": "610bec87985f3c3542d52093",
+    "display": true,
+    "name": "phone",
+    "__v": 0
+  },
+  {
+    "_id": "610bec87985f3c3542d52096",
+    "display": true,
+    "name": "address",
+    "__v": 0
+  },
+  {
+    "_id": "610bec87985f3c3542d52099",
+    "display": false,
+    "name": "IMAccount",
+    "__v": 0
+  },
+  {
+    "_id": "610bec87985f3c3542d5209c",
+    "display": true,
+    "name": "website",
+    "__v": 0
+  },
+  {
+    "_id": "610bec87985f3c3542d5209f",
+    "display": false,
+    "name": "event",
+    "__v": 0
+  },
+  {
+    "_id": "610bec87985f3c3542d520a2",
+    "display": false,
+    "name": "relationship",
+    "__v": 0
+  },
+  {
+    "_id": "610bec87985f3c3542d520a5",
+    "display": true,
+    "name": "SIP",
+    "__v": 0
+  },
+  {
+    "_id": "610bec87985f3c3542d520a8",
+    "display": false,
+    "name": "notes",
+    "__v": 0
+  }
+  ]
+}
+###getway Route
+DELETE http://localhost:3005/publicDisplay/610bdb5823273720a104da73
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A
+
+###getway Route
+GET http://localhost:3005/publicDisplay
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A
+
+###getway Route
+
+GET http://localhost:3005/publicDisplay
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A
+
+###getway Route
+POST   http://edc5a87.online-server.cloud:3007/response
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJpYXQiOjE2MjMwNjUyMTAsImV4cCI6MTYyNjk1MzIxMCwiYXVkIjoiNjA4YTlhMjY2NDQzNDM1ZDEzNWFkYmZiIiwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.MOXxB4xmYxeGI_NlbyyAGCVaKQFNn21BhuIsOxIXwEk
+Content-Type: application/json
+
+{
+  "code": "EMPLOYEE_INACTIVE",
+  "message": "This Employee is Inactive"
+}
+###excel
+GET http://localhost:3005/employee/excel
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDhhOWEyNjY0NDM0MzVkMTM1YWRiZmIiLCJpYXQiOjE2MjQ5NTUwNDAsImV4cCI6MTYyODg0MzA0MCwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.XtlukfbYdU5rV7I2pZjU0aCmAr_j0-F-JXs-p3q2a5g
+
+
+###getway Route
+PATCH   http://edc5a87.online-server.cloud:3005/response/60bf8babc67159b76de716ef
+Content-Type: application/json
+
+{  
+  "code": "EMPLOYEE_NOT_FOUND",
+  "address": "Employee not found",
+  "message": "This Employee is no longer Existed."
+}
+
+###getway Route
+delete http://localhost:3007/response/60bf527045f8a57f23e2acf3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJ1c2VySWQiOiI2MDc4MmFkMjY4NTNjYzJkNDA0MWI3ZDkiLCJpYXQiOjE2MjgwNTk3MTMsImV4cCI6MTYzMTk0NzcxMywiaXNzIjoicGlja3VycGFnZS5jb20ifQ.wdvWysoO0g26Eu2jj6U15c9YdejgLl1YVVMgzBWT92A.eyJpYXQiOjE2MjMwNjUyMTAsImV4cCI6MTYyNjk1MzIxMCwiYXVkIjoiNjA4YTlhMjY2NDQzNDM1ZDEzNWFkYmZiIiwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.MOXxB4xmYxeGI_NlbyyAGCVaKQFNn21BhuIsOxIXwEk
+Content-Type: application/json
+
+###
+GET http://localhost:3007/response/code/EMPLOYEE_NOT_FOUND

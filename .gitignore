@@ -1,14 +1,19 @@
-.architect
-bootstrap.css
-bootstrap.js
-bootstrap.json
-bootstrap.jsonp
-build/
-classic.json
-classic.jsonp
-ext/
-modern.json
-modern.jsonp
-resources/sass/.sass-cache/
-resources/.arch-internal-preview.css
-.arch-internal-preview.css
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+build/*
+# testing
+/coverage
+
+# production
+# misc
+.DS_Store
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+Background/*
+images/*
